@@ -8,7 +8,7 @@ module.exports = {
                     filename: 'bundle.js'
           }
 
-          plugins: [
-                    new 
-          ]
+          //plugins: [
+          //          new 
+          //]
 };
