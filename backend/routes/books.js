@@ -17,10 +17,9 @@ router.post('/', async (req, res) => {
     res.json({message: 'Book Saved'});
 });
 
-router.delete('/:id' async(req, res) => {
+/*router.delete('/:id' async(req, res) => {
     const book = await Book.findByIdAndDelete(req.params.id);
     res.send('deleting');
-    
-});
+}); */
 
 module.exports = router;
