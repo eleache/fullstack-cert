@@ -1,18 +1,20 @@
 # fullstack-cert
 ===
 
-aplicacion fullstack con nodejs.
+Aplicacion fullstack con nodejs.
 
 
 ... en proceso de desarrollo.
 
 
-## Mantenlo simple... (KISS)
+## RELASES 
 --------
-### temas que se desarrollan en este proyecto:
+### Mantenlo simple... (PRINCIPIO KISS)
 
-####          1. concepto
-##### aplicacion minimalista, que tiene como objetivo plasmar de forma simple como realizar una aplicacion full-stack con javascript, que obtiene un esquema de seguridad modesto, al implementar CORS (prevencion de cross-site-request-forgery), una vulnerabilidad que podria presentar por el hecho de tener 2 servidores (backend & frontend). una politica de variables de entorno y entornos de produccion. algo que debo mencionar, es que esta aplicacion web pertenece al grupo de microservicios que conformara, el proyecto en el que eh estado trabajando durante los ultimos 2 años. Comenzemos la fase 4 /7. -Happy Hacking!! 
+
+####          1. Contexto
+##### Aplicacion minimalista, que tiene como objetivo, aportar de forma simple el proceso para realizar una aplicacion full-stack con javascript, que obtiene un esquema de seguridad modesto, al implementar CORS (Intercambio de recursos de origen cruzado), necesario al estar basada en 2 servidores, backend y frontend. Manejo de variables de entorno (secret-keys), se implementa un entorno de desarrollo y un entorno de produccion.
+##### Esta aplicacion web pertenece al grupo de microservicios que conformara, el proyecto en el que eh estado trabajando durante los ultimos 2 años. Comenzemos la fase 4 /7. " Happy Hacking ! "
 ####          2. backend nodejs 
 ####          3. express middlewares
 ####          4. archivos estaticos
@@ -27,9 +29,15 @@ aplicacion fullstack con nodejs.
 ####          13. metodos http
 ####          14. dezpliegue en heroku y mongodb
 
-## ejecucion: 
-    js
-    npm install;
+
+## puedes lanzarla de manera local en windows, linux, termux y mac      [requisitos: nodejs instalado (nodejs.org)]
+
+### ejecucion: 
     
-    js
-    npm run start;
+    [/] $::::   git clone https://github.com/eleache/fullstack-cert.git
+   
+    [/] $::::   cd fullstack-cert
+
+    [/] $::::   npm install
+    
+    [/] $::::   npm start
